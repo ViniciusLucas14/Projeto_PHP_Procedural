@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="estilo/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <title>Login ADM</title>
+</head>
+<body>
+    <div class="div_top">
+        <a href="index_produtos.php"><img src="img/uaumart.png"style="margin-left:25%" ></a> <a class="uaumart" href="index_produtos.php">UAUMART</a>
+    </div>
+
+    <div class="above_cadastroelogin">
+        <img src="img/adm.png" style="margin-left:10%"><a class="cadastro">Login para administradores</a>
+    </div>
+    <form action="login_adm.php" method="POST">
+    <div class="cadastroelogin_cliente">   
+        <b>Email:</b> <input type="text" name="email" required placeholder="Insira o Email Cadastrado" /><br><br>
+
+        <b>Senha</b> <input type="password" name="senha" placeholder="Insira a Senha Cadastrada"><br><br>
+        <input type="submit" value="login">
+    </div>
+    </form>
+</body>
+</html>

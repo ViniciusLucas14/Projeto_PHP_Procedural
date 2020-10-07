@@ -1,0 +1,277 @@
+body{
+  background-color: #6495ED;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+    
+}
+.body_produtos{
+  background-color: #6495ED;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.div_undertop{
+  border-bottom: 1px solid #C0C0C0;
+  background-color: #4169E1;
+  margin-left: 0;
+  margin-right: 0;
+  /* padding-bottom: 20px;
+  padding-top: 20px; */
+}
+.div_conteudo{
+  background-color: #DCDCDC;
+  width: 80%;
+  height: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.topo_conteudo{
+  background-color: royalblue;
+  width: 100%;
+  height: 10% ;
+  margin-top: 2%;
+}
+.cadastroelogin_cliente{
+    background-color: #4169E1;
+    border:solid 1px;
+    width: 50%;
+    height: 20%;
+    margin-left: 25%;
+    margin-top: 1%;
+}
+.div_top{
+    border-bottom: 1px solid #C0C0C0;
+    background-color: #4169E1;
+    width: 100%;
+    height: 10%;
+}
+.above_cadastroelogin{
+  background-color: #4169E1;
+  border:solid 1px;
+  width: 50%;
+  height: 20%;
+  margin-left: 25%;
+  margin-top: 5%;
+}
+#under_cadastro{
+  background-color: #4169E1;
+  border:solid 1px;
+  width: 50%;
+  height: 20%;
+  margin-left: 25%;
+  margin-top: 1%;
+}
+.uaumart{
+  color: white;
+  font-size: 26pt;
+  font-family: 'Anton', sans-serif;
+}
+.cadastro{
+  color: white;
+  font-size: 26pt;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.index{
+  color: white;
+  font-size: 22pt;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+h2{
+  font-family: 'Sen', sans-serif;
+  font-size: 25pt;
+}
+fieldset{
+  border:1px solid black;
+  background:#B0C4DE;
+  font-family: 'Open Sans Condensed', sans-serif;
+ }
+ .inputs_cadastro[type=text]:empty {
+  border: 1px solid #555;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+/* CSS DOS CAMPOS EMAIL */
+input:invalid{
+    border-color: crimson;
+    box-shadow: 0px 0px 3px crimson;
+  }
+  
+  input:focus{
+    outline: none;
+  }
+  
+  input:focus:invalid{
+    box-shadow: none;
+  }
+  
+  span{
+    color: crimson;
+  }
+/* CSS DOS CAMPOS EMAIL */
+   .submit {
+    border:1px solid #25692A;
+    border-radius:4px;
+    display:inline-block;
+    cursor:pointer;
+    font-family:Verdana;
+    font-weight:bold;
+    font-size:13px;
+    padding:6px 10px;
+    text-decoration:none;
+  } 
+  
+  .search_box input {
+    background-color: #34495e;
+    border-radius: 20px;
+    color: #B2B2B2;
+    font-family: 'roboto';
+    font-size: 12px;
+    font-weight: 300;
+    height: 35px;
+    margin-left: 15%; 
+    width: 30%;
+}
+.div_produtos{
+  margin-top: 50px;
+  background-color: #D3D3D3;
+  width: 100%;
+  height: auto;
+  position: absolute;
+}
+.menu_lateral{
+  background-color: #B0C4DE;
+  float: left;
+  height: 80%;
+  border: 1px solid rgba(118, 0, 253, 0.521);
+  position: relative;
+  margin-right: 5%;
+}
+h2 {
+  color: #7B68EE;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18pt;
+  margin: 10px auto 20px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+h3{
+  color: rgb(51, 44, 112);
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 10px 5px 20px 10px;
+}
+.categorias{
+  border: 1px solid #7B68EE;
+}
+h1{
+  margin-top: auto;
+  font-family: 'Sen', sans-serif;
+}
+.prod {
+    width: 200px;
+    float: left;
+    border: 1px solid #f0f0f0;
+    text-align: center;
+    padding: 5px;
+    margin: 40px;
+    height: 300px;
+    display: block;
+    
+}
+.imgproduto{
+  width: auto;
+  height: 200px;
+  background-color: purple;
+  position: relative;
+}
+.descricao{
+  width: auto;
+  height: auto;
+  background-color: whitesmoke;
+  position: relative;
+}
+
+
+
+.menuu{
+  background-color: #4169E1;
+  position: relative;
+  text-align: center;
+}
+
+.menu{
+  width: 100%;
+  background-color: #4169E1;
+  font-family: 'sans-serif';
+  text-decoration: none;
+}
+
+.menu ul{
+  list-style: none;
+  display: inline-block;
+  padding: 0;
+  text-decoration: none;
+  text-align: center;
+}
+
+.menu ul li{
+  background-color: #4169E1;
+  text-decoration: none;
+  float: left;
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+}
+
+.menu ul li:hover{
+  visibility: visible;
+  background-color: #1E90FF;
+  text-decoration: none;
+}
+
+.menu a{
+  color: black;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+}
+
+.menu ul ul{
+  display: none;
+  visibility: hidden;
+  position: absolute;
+  text-decoration: none;
+}
+
+.menu ul li:hover ul{
+  visibility: visible;
+  display: block;
+  text-decoration: none;
+}
+
+.menu ul ul li{
+  float: none;
+  border-bottom: solid 1px #ccc;
+  text-decoration: none;
+}
+
+#category{
+  width: 100%;
+  height: 5%;
+  background-color: #4169E1;
+  border-bottom: 1px solid #C0C0C0;
+}
+
+.titulo{
+  font-weight: bold;
+  font-size: 14pt;
+}
+
+.div_vendedor{
+  background-color: #D3D3D3;
+  width: 100%;
+  height: auto;
+  position: absolute;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="estilo/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <title>Login Cliente</title>
+</head>
+<body>
+    <div class="div_top">
+        <a href="index_produtos.php"><img src="img/uaumart.png"style="margin-left:25%" ></a> <a class="uaumart">UAUMART</a>
+    </div>
+
+    <div class="above_cadastroelogin">
+        <img src="img/login.png" style="margin-left:30%"><a class="uaumart">Login CLIENTE</a>
+    </div>
+
+    <form action="login_cliente.php" method="POST">
+        <div class="cadastroelogin_cliente">   
+            <b>Email:</b> <input type="text" name="email" required placeholder="Insira o Email Cadastrado" /><br><br>
+
+            <b>Senha</b> <input type="password" name="senha" placeholder="Insira a Senha Cadastrada"><br><br>
+            <input type="submit" value="login">
+            <a href="cadastro_cliente.php">Ainda não é cadastrado?</a> 
+        </div>
+    </form>
+</body>
+</html>
